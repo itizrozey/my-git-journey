@@ -17,6 +17,6 @@ def add_stock(name, category, quantity, price, supplier):
     else:
         print("Failed to connect to the database.")
         
-        
-# add_stock("Toyota Camry", "Sedan", 10, 25000.00, "Toyota Supplier")
-add_stock("Honda Accord", "Sedan", 15, 24000.00, "Honda Supplier")
+ 
+
+

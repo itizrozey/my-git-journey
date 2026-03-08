@@ -13,7 +13,7 @@ from low_stock_alert import check_low_stock
 
 def Rozey():
     while True:
-        print("Welcome to the Rozey's Car Inventory Management System")
+        print("\n\nWelcome to the Rozey's Car Inventory Management System")
         print("1. Add a new product")
         print("2. Sell a product")
         print("3. View all products")
