@@ -1,5 +1,5 @@
 
-
+statement(Supposed question):
 Inventory Management for an automobile system / Warehouse to Track products: name, category, quantity, price, supplier. Add stock, sell items (reduce qty), low-stock alerts, total inventory value, sales report by period
 
 
@@ -18,8 +18,10 @@ Inventory Management System for an automobile system/warehouse:
         1. Add stock: Increase the quantity of a product in stock
         2. Sell Items: Reduce the quantity of a product in stock
         3. Low-Stock Alerts: Notify when a product's quantity falls below a certain threshold
-        4. Total Inventory Value: Calculate the total value of all products in stock
-        5. Sales Report by Period: Generate a report of sales for a given period (e.g., daily, weekly, monthly) 
+        4. Update Product: Add a new product to the stock
+        5. Delete Product: Remove a particular product from the stock
+        6. Sales Report by Period: Generate a report of sales for a given period (e.g., daily, weekly, monthly)
+        7. View Product: To see the entire stock from from the database here 
 
 
 Problem statement:
