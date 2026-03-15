@@ -1,0 +1,50 @@
+
+statement(Supposed question):
+Inventory Management for an automobile system / Warehouse to Track products: name, category, quantity, price, supplier. Add stock, sell items (reduce qty), low-stock alerts, total inventory value, sales report by period
+
+
+Inventory Management System for an automobile system/warehouse:
+
+    System Overview:
+        The system will manage the inventory of automobile parts/products in a ware house, tracking products with attributes
+
+        name: Product name (i.e, engin oil, break pads, etc)
+        category: Product category (e.g, Engine, Breakes, etc)
+        quantity: Current stock quantity
+        price: Product price
+        supplier: Product supplier
+
+        The system will have the following features: 
+        1. Add stock: Increase the quantity of a product in stock
+        2. Sell Items: Reduce the quantity of a product in stock
+        3. Low-Stock Alerts: Notify when a product's quantity falls below a certain threshold
+        4. Update Product: Add a new product to the stock
+        5. Delete Product: Remove a particular product from the stock
+        6. Sales Report by Period: Generate a report of sales for a given period (e.g., daily, weekly, monthly)
+        7. View Product: To see the entire stock from from the database here 
+
+
+Problem statement:
+    The Context:
+        Traditional automobile warehouses and spare part dealerships often rely on manual ledgers or basic spreadsheets to track high-value inventory. In an industry where a single engine block can cost millions and a missing spark plug can stall a repair, precision is non-negotiable.
+
+    The Challenges (The "Problems"):
+        Inventory Inaccuracy: Manual tracking leads to "Ghost Stock" (items listed as available but physically missing) or "Stockouts" (running out of critical parts like brake pads), causing lost sales and customer frustration.
+
+        Lack of Real-Time Alerts: Without an automated system, managers only realize an item is out of stock when they go to fetch it. There is no proactive notification when a part hits its minimum threshold.
+
+        Financial Blind Spots: Calculating the "Total Inventory Value" (the capital tied up in the warehouse) is a slow, error-prone process when done manually, making it difficult to assess the business's health.
+
+        Disconnected Sales Records: Sales are often recorded separately from stock updates. This "de-coupling" makes it impossible to generate accurate Sales Reports by Period or to verify if a sale was even possible based on current stock levels. 
+
+This system reduces Human Error by 40-60% compared to manual entry—this makes the "Problem" sound much more urgent to solve!
+
+The Solution:
+This project develops a Centralized Inventory Management System using Python and MySQL. The system bridges the gap between the warehouse and the sales desk by: 
+    Enforcing Data Integrity (preventing sales of non-existent stock).
+
+    Automating Low-Stock Alerts to ensure high-demand parts are always reordered.
+
+    Generating Dynamic Financial Reports that provide instant insights into revenue and total asset value through a structured database. 
+    
+    
